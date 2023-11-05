@@ -1,4 +1,4 @@
-package b;
+package org.zjazd.czwarty.z1.b;
 
 public class B {
 	

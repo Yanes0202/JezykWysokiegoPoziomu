@@ -1,7 +1,7 @@
-package a;
+package org.zjazd.czwarty.z1.a;
 
-import b.*;
-import b.c.*;
+import org.zjazd.czwarty.z1.b.*;
+import org.zjazd.czwarty.z1.b.c.*;
 
 class ex50 {
 	
