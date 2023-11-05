@@ -1,4 +1,4 @@
-package org.example;
+package org.zjazd.drugi;
 
 import java.util.Arrays;
 

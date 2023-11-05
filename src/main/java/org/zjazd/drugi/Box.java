@@ -1,4 +1,4 @@
-package org.example;
+package org.zjazd.drugi;
 
 public class Box {
     double d, w, h;

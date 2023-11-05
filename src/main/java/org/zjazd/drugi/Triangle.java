@@ -1,4 +1,4 @@
-package org.example;
+package org.zjazd.drugi;
 
 public class Triangle {
     double l, r, h;
