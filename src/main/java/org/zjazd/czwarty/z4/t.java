@@ -33,6 +33,9 @@ class u <U,V> extends t <Integer> {
 }*/
 
 //3
+
+import org.zjazd.czwarty.z1.b.B;
+
 /**
 public interface t <T>{
 }
@@ -45,6 +48,15 @@ class u <U,T> implements t <T> {
     //4
 class t {
     <T> T f(T t) {return t;}
+
+    static <T> T fst(T t) {return t;}
+}
+
+class T<T> {
+}
+
+class Book {
+    int id;
 }
 
 class Main {
@@ -69,6 +81,17 @@ class Main {
  */
         //3
 //        u<Integer, String> u = new u<>();
+
+        //4
+        Book b = new Book();
+        b.id = 9;
+        System.out.println(t.fst(b).id);
+
+        T s = new T();
+
+        t obt = new t();
+
+        System.out.println(obt.<T>f(s));
     }
 }
 
